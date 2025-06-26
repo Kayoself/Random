@@ -2,3 +2,16 @@ https://sir.netuserserv.online/DyhrvhNLUFcnQgJLALarKCJhSMDzd/4b78e78f-53f6-4c2e-
 
 
 https://lin.klaris-sub.top/sub/ODgyNzc2NjAwXzJlN2QsMTc1MDQwNjM4OA3ceDWWKEKT
+
+sudo apt update
+sudo apt install -y gnupg ca-certificates curl
+
+# اضافه‌کردن کلید GPG به مسیر امن‌تر
+curl -fsSL https://qv2ray.net/debian/pubkey.gpg | sudo tee /usr/share/keyrings/qv2ray-archive-keyring.gpg > /dev/null
+
+# اضافه‌کردن مخزن با اشاره به keyring
+echo "deb [signed-by=/usr/share/keyrings/qv2ray-archive-keyring.gpg arch=amd64] https://qv2ray.net/debian/ stable main" | sudo tee /etc/apt/sources.list.d/qv2ray.list
+
+# آپدیت و نصب
+sudo apt update
+sudo apt install -y qv2ray
