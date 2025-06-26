@@ -1,18 +1,1 @@
 
-
-
-sudo apt update
-sudo apt install -y gnupg ca-certificates curl
-
-curl -fsSL https://qv2ray.net/debian/pubkey.gpg | sudo tee /usr/share/keyrings/qv2ray-archive-keyring.gpg > /dev/null
-
-echo "deb [signed-by=/usr/share/keyrings/qv2ray-archive-keyring.gpg arch=amd64] https://qv2ray.net/debian/ stable main" | sudo tee /etc/apt/sources.list.d/qv2ray.list
-
-sudo apt update
-sudo apt install -y qv2ray
-
-
-https://sir.netuserserv.online/DyhrvhNLUFcnQgJLALarKCJhSMDzd/4b78e78f-53f6-4c2e-b2fe-c3ca5a47a94d/#1000
-
-
-https://lin.klaris-sub.top/sub/ODgyNzc2NjAwXzJlN2QsMTc1MDQwNjM4OA3ceDWWKEKT
